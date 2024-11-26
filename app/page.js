@@ -1,5 +1,6 @@
 "use client";
 
+import BuildingTerminus from "@/Components/Home/BuildingTerminus";
 import FirstSection from "@/Components/Home/FirstSection";
 
 // Add this line at the very top
@@ -29,9 +30,10 @@ export default function Home() {
           }}
         />
         {/* Text content */}
-        
-          <FirstSection />
-        </div>
+
+        <FirstSection />
+      </div>
+      <BuildingTerminus />
     </>
   );
 }

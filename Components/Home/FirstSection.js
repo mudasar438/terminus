@@ -1,7 +1,9 @@
 import Image from "next/image";
 import rocket from "../../public/assets/images/rocket.png";
 import MARS from "../../public/assets/images/MARS.png";
+import elonMusk from "../../public/assets/images/elonMusk.png";
 import blur from "../../public/assets/images/blur.png";
+import moon from "../../public/assets/images/moon.png";
 
 export default function FirstSection() {
   return (
@@ -21,8 +23,7 @@ export default function FirstSection() {
           <div className="">
             <div className=" flex flex-col items-center relative ">
               <p className="text-[24px] sm:text-[44px] md:text-[64px] font-sandro text-center font-Orbitron">
-
-              The First City On
+                The First City On
               </p>
               <div className="absolute  top-[-57px] md:top-[49px] w-[100px] h-[200px] md:w-[300px] md:h-[100px]  ">
                 <Image
@@ -31,7 +32,7 @@ export default function FirstSection() {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="w-[80px] md:w-[140px] h-[170px] absolute left-[4px] md:left-[74px] top-[-30px] md:top-[20px]">
+              <div className="w-[80px] md:w-[140px] h-[170px] absolute left-[-10px] md:left-[64px] top-[-30px] md:top-[20px]">
                 <Image
                   src={rocket}
                   alt="Logo"
@@ -42,7 +43,7 @@ export default function FirstSection() {
             </div>
           </div>
         </div>
-        <div className="container flex items-center justify-center mt-[70px]">
+        <div className="container flex items-center justify-center mt-[60px]">
           <span
             className="font-[18px] sm:text-[20px] text-center w-full  md:w-[800px] p-[14px] font-Orbitron"
             style={{ lineHeight: "27px" }}

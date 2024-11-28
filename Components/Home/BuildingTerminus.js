@@ -4,8 +4,8 @@ import elonMusk from "../../public/assets/images/elonMusk.png";
 export default function BuildingTerminus() {
   return (
     <div className="p-[100px] bg-[#D56C22]">
-      <div className="relative">
-        <div className="absolute border-2 p-3 left-[-200px] top-[7px] bg-black h-[310px] z-[100] w-[273px] rounded-[14px]">
+      <div className="">
+        <div className=" border-2 p-3  bg-black h-[310px] z-[100] w-[273px] rounded-[14px]">
           <div className="flex gap-x-2">
             <div className="w-[27px] md:w-[27px]">
               <Image

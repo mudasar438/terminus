@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Syne+Mono&display=swap" rel="stylesheet">
+
 /* global.css */
 
 :root {
@@ -16,17 +20,17 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bruno+Ace+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Bruno+Ace+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 @font-face {
-  font-family: 'Sandro Grottesco';
-  src: url("./fonts/sandro-grottesco/Sandro.ttf") format('TrueType');
+  font-family: "Sandro Grottesco";
+  src: url("./fonts/sandro-grottesco/Sandro.ttf") format("TrueType");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Sandro Grottesco';
-  src: url("./fonts/Orbitron.ttf") format('TrueType');
+  font-family: "Sandro Grottesco";
+  src: url("./fonts/Orbitron.ttf") format("TrueType");
   font-weight: normal;
   font-style: normal;
 }
@@ -34,5 +38,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Sandro' "Orbitron";
+  font-family: "Sandro" "Orbitron";
 }

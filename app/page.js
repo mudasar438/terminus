@@ -2,6 +2,8 @@
 
 import BuildingTerminus from "@/Components/Home/BuildingTerminus";
 import FirstSection from "@/Components/Home/FirstSection";
+import HowToBuy from "@/Components/Home/HowToBuy";
+import Tokenomic from "@/Components/Home/Tokenomic";
 
 // Add this line at the very top
 
@@ -34,6 +36,8 @@ export default function Home() {
         <FirstSection />
       </div>
       <BuildingTerminus />
+      <Tokenomic />
+      <HowToBuy />
     </>
   );
 }

@@ -63,7 +63,7 @@ const tocArray = [
   {
     img: communityDot,
     heading: "5% (500k)",
-    text: "Community bonus System (regular rewards for competitions/community super stars/ new communities)",
+    text: "Community bonus System (regular rewards for competitions/ community super stars/ new communities)",
   },
 ];
 

@@ -8,7 +8,7 @@ import moon from "../../public/assets/images/moon.png";
 export default function FirstSection() {
   return (
     <div
-      className="flex absolute items-center justify-center  w-full h-full"
+      className="flex absolute items-start pt-[100px] lg:pt-[0px] lg:items-center justify-center  w-full h-[800px]"
       style={{
         backgroundImage: `url(${blur.src})`, // Correctly reference the blur image
         width: "100%",
@@ -19,7 +19,7 @@ export default function FirstSection() {
       }}
     >
       <div className="flex flex-col items-center justify-center ">
-        <div className="container flex items-center justify-center ">
+        <div className="container flex items-center justify-center  ">
           <div className="">
             <div className=" flex flex-col items-center relative ">
               <p className="text-[24px] sm:text-[44px] md:text-[64px] font-sandro text-center font-Orbitron">

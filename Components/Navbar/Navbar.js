@@ -28,7 +28,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="container backdrop-blur-md bg-white/30 z-50 rounded-[35px] w-[98%] py-1 fixed top-0 left-1/2 transform -translate-x-1/2 mt-4 backdrop-blur-md md:bg-white/20 md:backdrop-blur-none">
+    <nav className="container bg-white/30 z-50 rounded-[24px] md:rounded-[88px] w-[98%] py-1 fixed top-0 left-1/2 transform -translate-x-1/2 mt-4 backdrop-blur-md ">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
@@ -93,7 +93,7 @@ export default function Navbar() {
                 <Link
                   key={index}
                   href={item.link}
-                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-[20px] font-normal leading-[24px] font-sandro"
+                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-[20px] sm:text-[12px] md:text-[20px] font-normal leading-[24px] font-sandro"
                 >
                   {item.name}
                 </Link>
@@ -121,7 +121,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden pl-5 pr-5 rounded-xl mt-7 backdrop-blur-md bg-white/30">
+        <div className="md:hidden pl-5 pr-5  mt-7 ">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {array.map((item, index) => {
               return (

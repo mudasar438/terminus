@@ -8,7 +8,7 @@ import FirstSection from "@/Components/Home/FirstSection";
 export default function Home() {
   return (
     <>
-      <div className="relative flex justify-center items-center h-screen overflow-hidden ">
+      <div className="relative flex justify-center items-center h-[800px]  overflow-hidden ">
         {/* Fullscreen video */}
         <video
           src="/assets/videos/homeBg.mp4"
@@ -22,7 +22,7 @@ export default function Home() {
             top: 0,
             left: 0,
             width: "100vw", // Full width of the viewport
-            height: "100vh", // Full height of the viewport
+            height: "800px", // Full height of the viewport
             objectFit: "cover", // Ensure the video covers the entire screen
             opacity: 1,
             // transform: "rotate(270deg)", // Rotate 270 degrees

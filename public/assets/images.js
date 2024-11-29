@@ -8,7 +8,9 @@ import tablebg from "./images/tablebg.png";
 import howToBuybg from "./images/howToBuybg.png";
 import howtobuy from "./images/howtobuy.png";
 import howtobuyVido from "./images/howtobuyVido.png";
+import term from "./images/term.png";
 export {
+  term,
   howtobuyVido,
   howtobuy,
   tokenmetric,

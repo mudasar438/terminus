@@ -13,7 +13,7 @@ const HowToBuy = () => {
         backgroundSize: "cover",
         marginTop: "-300px",
       }}
-      className="w-full p-3 "
+      className="w-full lg:px-3 "
     >
       <div className="max-w-[600px] mx-auto  pt-[350px] lg:pt-[400px] bg-transparent  rounded-[20px] ">
         <Image
@@ -25,10 +25,9 @@ const HowToBuy = () => {
           }}
         />
       </div>
-      <div className="max-w-[700px] mx-auto  mt-[50px] lg:mt-[100px] bg-[linear-gradient(0deg,rgba(8,1,0,1)_9%,rgba(255,255,255,1)_100%)] p-[1px] rounded-2xl">
-        <div className="bg-[#000] rounded-2xl p-3">
-          <p className="">
-            {" "}
+      <div className="max-w-[700px] mx-auto mt-[50px] lg:mt-[100px] lg:bg-[linear-gradient(0deg,rgba(8,1,0,1)_9%,rgba(255,255,255,1)_100%)] p-[1px] rounded-t-2xl">
+        <div className="bg-[#000] rounded-t-2xl p-3">
+          <p className="text-center lg:text-left1 text-[12px] lg:text-[16px]">
             Terminus represents belief in Elon Musk’s vision of building Mars’
             first city, but it offers no guarantees, promises, or intrinsic
             value. The project is now fully in the hands of the community, with

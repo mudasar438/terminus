@@ -78,10 +78,11 @@ const Tokenomic = () => {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "top",
           backgroundSize: "cover",
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
         }}
         className="w-full p-4 "
       >
-        <div className="container m-auto pt-10 pb-20">
+        <div className="container m-auto  pt-10 pb-20">
           <p
             className="text-[19px] sm:text-[30px] lg:text-[40px] xl:text-[54px] font-sandro text-left  ;
 "

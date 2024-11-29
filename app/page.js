@@ -2,6 +2,7 @@
 
 import BuildingTerminus from "@/Components/Home/BuildingTerminus";
 import FirstSection from "@/Components/Home/FirstSection";
+import Footer from "@/Components/Home/Footer";
 import HowToBuy from "@/Components/Home/HowToBuy";
 import Tokenomic from "@/Components/Home/Tokenomic";
 
@@ -36,8 +37,10 @@ export default function Home() {
         <FirstSection />
       </div>
       <BuildingTerminus />
+
       <Tokenomic />
       <HowToBuy />
+      <Footer />
     </>
   );
 }

@@ -13,6 +13,7 @@ import buildingterminusbg from "../../public/assets/images/buildingterminusbg.pn
 import GroupBg from "../../public/assets/images/GroupBg.png";
 import BuyCard from "./BuyCard";
 import { BiRepost } from "react-icons/bi";
+import { term } from "@/public/assets/images";
 
 const imgArray = [
   {
@@ -36,7 +37,7 @@ export default function BuildingTerminus() {
   return (
     <>
       <div
-        className=" mt-[-204px] px-4 w-full h-full bg-no-repeat bg-bottom md:bg-top md-[170px] xl:pb-[200px]   bg-cover z-10"
+        className=" mt-[-204px] px-4 w-full h-full bg-no-repeat bg-bottom md:bg-center md-[170px] xl:pb-[0px]   bg-cover z-10"
         style={{
           backgroundImage: `url(${GroupBg.src})`, // Correctly reference the blur image
         }}
@@ -141,6 +142,42 @@ export default function BuildingTerminus() {
           </div>
           <div className="w-full lg:w-[60%] xl:w-[50%] flex justify-end">
             <BuyCard />
+          </div>
+        </div>
+        <div className="text-center container mx-auto max-w-[1100px]  ">
+          <p
+            className="text-[19px] sm:text-[30px] lg:text-[40px] xl:text-[64px] font-sandro text-left mt-5 lg:mt-[-30px] ;
+"
+          >
+            Building
+          </p>
+          <div className="max-w-7xl  w-[full] sm:w-[60%] md:w-[65%] mx-auto sm:mt-[-20px] lg:mt-[-30px]   ">
+            <Image src={term} alt="" style={{ width: "100%" }} />
+          </div>
+          <div className=" text-lg   mt-20">
+            Elon Musk envisions Mars as the next frontier for humanity, a
+            critical step in our evolution into a multi-planetary species. His
+            goal is to establish Terminus, the first sustainable city on the Red
+            Planet—a hub of innovation, sustainability, and exploration.
+            Leveraging SpaceX’s cutting-edge technology, Musk aims to transport
+            humanity to Mars and lay the foundation for a self-sustaining
+            colony, ensuring the long-term survival of our species. The Terminus
+            token serves as a gateway for you to participate in this historic
+            journey, supporting the mission to bring humanity to Mars and build
+            a future beyond Earth.
+          </div>
+          <div className="mt-4 text-lg leading-relaxed ">
+            More than just another cryptocurrency, the Terminus token is a
+            digital asset directly inspired by Elon Musk’s vision. As SpaceX
+            moves closer to realizing this ambitious goal, Terminus represents
+            the financial infrastructure for a future Martian economy. It
+            symbolizes a shared belief in this transformative mission, giving
+            holders the opportunity to participate in building the first city on
+            Mars. Aligned with Musk’s vision of a decentralized, self-sustaining
+            society on Mars, where resources, technology, and innovation flow
+            freely, the Terminus token is at the forefront of making this vision
+            a reality. By holding Terminus, you become part of a global movement
+            that actively supports and accelerates humanity’s journey to Mars.
           </div>
         </div>
       </div>
